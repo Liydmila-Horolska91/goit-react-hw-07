@@ -1,0 +1,40 @@
+.contactCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    border: 2px solid #2d9de3;
+    border-radius: 10px;
+    color: #2d9de3;
+    padding: 12px 16px;
+    font-size: 18px;
+}
+
+.contactFields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contactField {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contactBtn {
+    border: none;
+    border-radius: 6px;
+    background-color: #2d9de3;
+    color: #1a1a1a;
+    padding: 6px 12px;
+    font-family: inherit;
+    font-size: 18px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contactBtn:hover {
+    background-color: rgba(47, 185, 210, 0.7);
+}
